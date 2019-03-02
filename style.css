@@ -1,20 +1,26 @@
 body{
     text-align: center;
+    background-image: url("flowers.jpg");
+    background-repeat: no-repeat;
+    background-size: 1450px 650px;
+    background-color:#cccccc;
+    /*background-color: #0a78ff;	*/
 }
 h1{
     margin-top: 100px;
+    color:#0a78ff;
 }
 p{
  padding:100px 20px 100px 20px;
  margin-top: 50px;
  font-size: 25px;
- color: white;
+ color: #ff0199;
  font-weight: bold;
 }
 
 .speech-bubble {
 	position: relative;
-	background: #7ed1fe;
+	background: #04ffcd;
 	border-radius: .4em;
 }
 
@@ -26,7 +32,7 @@ p{
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
-	border-left-color: #7ed1fe;
+	border-left-color: #04ffcd;
 	border-right: 0;
 	margin-top: -20px;
 	margin-right: -20px;
