@@ -1,26 +1,27 @@
 body{
     text-align: center;
-    background-image: url("flowers.jpg");
+    /*background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/14/53/165660479a5d335.jpg");*/
+    background-image: url("giphy1.gif");
     background-repeat: no-repeat;
-    background-size: 1450px 650px;
-    background-color:#cccccc;
-    /*background-color: #0a78ff;	*/
+    background-size: 1370px 650px;
+    background-color:green;
+    
 }
 h1{
     margin-top: 100px;
-    color:#0a78ff;
+    color:#923b7a;
 }
 p{
  padding:100px 20px 100px 20px;
  margin-top: 50px;
  font-size: 25px;
- color: #ff0199;
+ color: black;
  font-weight: bold;
 }
 
 .speech-bubble {
 	position: relative;
-	background: #04ffcd;
+	background: #5499C7;
 	border-radius: .4em;
 }
 
@@ -32,8 +33,96 @@ p{
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
-	border-left-color: #04ffcd;
+	border-left-color: #5499C7;
 	border-right: 0;
 	margin-top: -20px;
 	margin-right: -20px;
+}
+
+.btn-group1{
+    text-align: center;
+    color: black;
+    border-color: black;
+    background-color:#f1abb9 ;
+    cursor: pointer;
+    padding: 5px;
+    text-shadow: 0px 1px 0px white;
+    border-style: double;
+    border-radius: 15px;
+    font-size : 20px;
+    transition-duration: 1.0s;
+}
+.btn-group1:hover {
+    background-color: #52de2f ;
+}
+.btn-group2{
+        
+    text-align: center;
+    color: black;
+    border-color: black;
+    background-color:#de2f51 ;
+    cursor: pointer;
+    padding: 5px;
+    text-shadow: 0px 1px 0px white;
+    border-style: double;
+    border-radius: 15px;
+    font-size : 20px;
+    transition-duration: 1.0s;
+}
+.btn-group2:hover {
+    background-color: #52de2f ;
+    
+}
+.btn-group3{
+        
+    text-align: center;
+    color: black;
+    border-color: black;
+    background-color:#f1abb9 ;
+    cursor: pointer;
+    padding: 5px;
+    text-shadow: 0px 1px 0px white;
+    border-style: double;
+    border-radius: 15px;
+    font-size : 40px;
+    transition-duration: 1.0s;
+}
+.btn-group3:hover{
+    background-color: #52de2f ;
+}
+
+.btn-group4{
+        
+    text-align: center;
+    color: black;
+    border-color: black;
+    background-color:#de2f51 ;
+    cursor: pointer;
+    padding: 5px;
+    text-shadow: 0px 1px 0px white;
+    border-style: double;
+    border-radius: 15px;
+    font-size : 40px;
+    transition-duration: 1.0s;
+}
+.btn-group4:hover{
+    background-color: #52de2f ;
+}
+
+.btn-group5{
+        
+    text-align: center;
+    color: black;
+    border-color: black;
+    background-color:#f1abb9 ;
+    cursor: pointer;
+    padding: 5px;
+    text-shadow: 0px 1px 0px white;
+    border-style: double;
+    border-radius: 15px;
+    font-size : 40px;
+    transition-duration: 1.0s;
+}
+.btn-group5:hover{
+    background-color: #52de2f ;
 }
